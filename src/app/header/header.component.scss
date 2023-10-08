@@ -1,0 +1,60 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  h1 a{
+    font-size: 40px;
+    margin: 0;
+    color: blueviolet;
+    text-decoration: none;
+  }
+  ul {
+    display: inline-flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    li {
+      padding-left: 15px;
+      padding-top: 15px;
+      cursor: pointer;
+      a {
+        text-decoration: none;
+        color: blueviolet;
+      }
+    }
+  }
+  .nav-search {
+    flex: 1;
+    margin-top: 5px;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    input {
+      flex: 1;
+      color: blueviolet;
+      border: 1px solid blueviolet;
+      height: 39px;
+      border-right: 0px;
+    }
+    button {
+      color: blueviolet;
+      border: 1px solid blueviolet;
+      height: 39px;
+      border-left: 0px;
+    }
+  }
+}
+.search-list{
+  position: absolute;
+  display: list-item !important; 
+  z-index: 10;
+  background-color: white;
+  border: 1px solid #ddd;
+  width: 300px;
+  top: 40px;
+  li{
+    border: 1px solid #ddd;
+    padding: 5px;
+    cursor: pointer;
+    color: blueviolet;
+  }
+}

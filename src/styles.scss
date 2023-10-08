@@ -1,0 +1,54 @@
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+
+
+body {
+  font-family: sans-serif;
+}
+.container {
+  margin-left: 5%;
+  margin-right: 5%;
+  max-width: 1575px !important;
+}
+
+.common-form {
+  width: 300px;
+  text-align: center;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+}
+.form-input {
+  height: 35px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  border: 1px solid blueviolet;
+  color: blueviolet;
+}
+.form-button {
+  border: 1px solid blueviolet;
+  height: 35px;
+  cursor: pointer;
+  color: blueviolet;
+
+}
+.message_p{
+  color: green;
+  text-align: center;
+}
+.carousel-caption{
+  background-color: #00000082;
+  border-radius: 5px;
+  
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+  background-color: black;
+  border-radius: 5px;
+}
+.invalid_invalid{
+   color: red;
+   font-size: 15px;
+   margin-top: -20px;
+   text-align: left;     
+}
+
